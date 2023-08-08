@@ -10,7 +10,7 @@ pipeline{
     stages{
         stage('Checkout the code'){
             steps{
-                git branch: 'main', url: 'https://github.com/skmdab/create_Kubernetes.git'
+                git branch: 'master', url: 'https://github.com/skmdab/create_Kubernetes.git'
             }
         }
 
