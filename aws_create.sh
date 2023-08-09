@@ -37,7 +37,7 @@ INSTANCENAME=k8s
 
 echo "Creating $INSTANCENAME server"
 
-INSTANCETYPE=t2.micro
+INSTANCETYPE=t2.medium
 
 AMI_ID=ami-0f5ee92e2d63afc18
 
